@@ -1,0 +1,191 @@
+body {
+	height: 100% ;
+	font-size: 10pt ;
+}
+
+#layoutRegion{
+	margin: 0 auto;
+	border: 1px solid black ;
+	position: relative;
+}
+
+.UnSelectable {
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.LayoutGrid {
+	position: absolute;
+	/*border: 1px solid black;*/
+}
+
+.DashboardPanel {
+	position: absolute;
+}
+
+.PanelContent .Title {
+	height: 20px;
+	width: 100%;
+	cursor: move;
+	background: transparent url("../images/cc.gif") repeat-x ;
+	overflow: hidden;
+}
+
+.PanelContent .TitleImg {
+	height: 16px;
+	width: 20px;
+	margin: 2px 3px;
+	float: left;
+}
+
+.PanelContent .CloseIcon {
+	width: 16px;
+	height: 16px;
+	float: right;
+	margin: 2px 1px;
+	cursor: pointer;
+	background: transparent url(../images/panel_close.gif) no-repeat center ;
+}
+
+.PanelContent .MinimizeIcon {
+	width: 16px;
+	height: 16px;
+	float: right;
+	margin: 2px 1px;
+	cursor: pointer;
+	background: transparent url(../images/panel_min.gif) no-repeat center ;
+}
+
+.PanelContent .Content {
+	background: #eeeeee;;
+	width: 100% ;
+	height: 100% ;
+}
+
+.PanelContent .TitleText {
+	
+}
+
+.TargetGrid {
+	background-color: #fcbcf8;
+}
+
+.PanelTl {
+	width: 5px;
+	height: 4px;
+	cursor: nw-resize ;
+	background: transparent url(../images/tl.gif) no-repeat top left ;
+}
+
+.PanelTc {
+	height: 4px;
+	cursor: n-resize ;
+	background: transparent url(../images/tc.gif) repeat-x top;
+}
+
+.PanelTr {
+	width: 5px;
+	height: 4px;
+	cursor: ne-resize ;
+	background: transparent url(../images/tr.gif) no-repeat top right;
+}
+
+.PanelCl {
+	width: 5px;
+	cursor: w-resize ;
+	background: transparent url("../images/cl.gif") repeat-y left;
+}
+
+.PanelCc {
+	background: transparent url("../images/cc.gif") repeat ;
+}
+
+.PanelCr {
+	width: 5px;
+	cursor: e-resize ;
+	background: transparent url("../images/cr.gif") repeat-y right;
+}
+
+.PanelBl {
+	width: 5px;
+	height: 5px;
+	cursor: sw-resize ;
+	background: transparent url("../images/bl.gif") no-repeat bottom left;
+}
+
+.PanelBc {
+	height: 5px;
+	cursor: s-resize ;
+	background: transparent url("../images/bc.gif") repeat-x bottom;
+}
+
+.PanelBr {
+	height: 5px;
+	cursor: se-resize ;
+	background: transparent url("../images/br.gif") no-repeat bottom right;
+}
+
+.TabContainer{
+	width: 400px;
+	position: absolute;
+	z-index: 2000 ;
+	font-size: 10pt;
+	background-color: #ffffff ;
+	border: 5px solid blue ;
+}
+
+
+.TabContainer ul{
+	float: left;
+	width: 100% ;
+} 
+
+.TabContainer ul li{
+	float: left;
+	cursor: pointer;
+}
+
+.TabContainer ul li a{
+	padding: 15px 15px 0px 15px;
+	text-decoration: underline;
+	color: black ;
+}
+
+.CardContainer{
+	float: left;
+}
+
+.CardContainer .Card{
+	display: none;
+	padding: 15px;
+}
+
+.CardContainer .CardActive {
+	display: block;
+}
+
+.TabActive {
+	font-weight: bold;
+}
+
+.OptionTable {
+/*
+	width: 100% ;
+*/
+}
+
+.OptionName {
+	font-weight: bold;
+	line-height: 200% ;
+}
+
+#ImgShowCP{
+	position: absolute;
+	top: 0px ;
+	left: 0px ;
+	width: 16px ;
+	height: 16px ;
+	z-index: 2001 ;
+}
