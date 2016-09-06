@@ -8,4 +8,4 @@ On the top-left corner this is an arrow icon which can to clicked to brought up 
 
 Each panel on the dashboard can be drag and drop. Once it is dragged, the background grid will be highlighted to show where the actually position the panel is going to be after releasing the mouse button. The panel on the dashboard can also be minimized or deleted from the dashboard by clicking on the related icons.
 
-Note: this demo is based on ext-core and it is created a few years ago. 
+Note: This demo is based on ext-core and it is created a few years ago. There might be bugs.
